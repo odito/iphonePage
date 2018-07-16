@@ -1,0 +1,496 @@
+
+*{
+
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+
+
+/*header*/
+
+header{
+margin:0;
+padding:0;
+background:#575a5d;
+position:fixed;
+width:100%;
+z-index: 1;
+
+}
+
+header:after{
+content:'';
+clear:both;
+
+}
+
+header #logo, header ul{
+display: inline-block;
+
+}
+
+
+
+
+#header #logo{
+
+margin:0;
+padding-top:5px;
+padding-left: 10px;
+font-size: 30px;
+
+}
+
+#header-img{
+
+width:90px;
+height:45px;
+
+}
+
+#header #nav-bar{
+padding-top:10px;
+padding-right:30px;
+//margin-top:20px;
+list-style: none;
+float:right;
+}
+
+
+
+
+
+#header #nav-bar li{
+display: inline-block;
+
+}
+
+#header #nav-bar li a{
+text-decoration: none;
+  color:white;
+  padding:10px 15px 10px 15px;
+  font-size:18px; 
+  display: inline-block;
+}
+
+#header #nav-bar li a:hover{
+  background:#323232; 
+  color:white;
+  padding:10px 15px 10px 15px;
+  font-size:18px; 
+color:orange;
+}
+
+
+
+/*landpage*/
+
+#landpage{
+position:relative;
+ width:100%;
+background:url('http://straightonmusic.com/wp-content/uploads/2015/06/apple_logo_wallpaper_by_thegamerpr0-d35ou77.jpg') center/cover fixed no-repeat;/*quick way*/
+ height:520px;
+clear:both;
+top:40px;
+
+}
+
+.backBox{
+//background:dodgerblue;
+
+text-align: center;
+margin:0 auto;
+padding-top:100px;
+
+}
+
+.box{
+opacity:0.9;
+background:#323232;
+width:40%;
+margin:0 auto;
+padding:30px; 
+color:white;
+}
+
+
+.box h1{
+ font-family: italic;
+color:white;
+padding-bottom: 10px;
+}
+
+#form .btn{
+opacity:1;
+height:30px;
+color:orange;
+background:black; 
+width:90px;
+margin-top: 10px;
+}
+
+#form .btn:hover{
+opacity:0.6;
+
+color:white;
+background:black; 
+border:1px solid green;
+}
+
+
+#form #email{
+
+height:30px;
+ 
+}
+
+
+
+
+/*about-us*/
+
+.containner{
+
+margin-top:50px;
+
+}
+
+.containner h1{
+padding-top:20px;
+text-align: center;
+font-family: italic;
+padding-bottom:0px;
+}
+
+.containner h4{
+padding:20px;
+text-align: center;
+width:80%;
+margin:0 auto;
+font-family: 'Open Sans', sans-serif;
+color:#323232;
+}
+
+
+.offer{
+  padding-top: 20px;
+padding-bottom: 20px;
+width:98%;
+display:flex;
+justify-content: space-between;
+margin:0 auto;
+
+}
+
+
+
+
+
+.services{
+
+width:24%;
+//border:1px solid green;
+text-align: center;
+padding: 10px;
+background:dodgerblue;
+
+}
+
+
+.paragraph h3{
+padding-bottom: 10px;
+text-decoration: underline;
+color:white;
+}
+
+
+.paragraph p{
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+
+}
+
+.services .icon{
+font-size: 35px;
+padding: 10px;
+
+}
+
+.services .icon .fas{
+font-size: 35px;
+padding: 14px;
+background:lightblue;
+width: 70px;
+height:70px; 
+border-radius: 50%;
+}
+
+
+
+
+/*media*/
+
+.media12{
+width:100%;
+display: flex;
+margin:0 auto;
+justify-content:space-around; 
+
+}
+
+.media1 , .media2 {
+width:100%;
+height:100%; 
+display: flex;
+
+justify-content:space-around;
+}
+
+.media1 #video, .media2 #video{
+width:85%;
+height:230px; 
+display: flex;
+border:2px solid black;
+justify-content:space-around;
+}
+
+
+
+/*choiches*/
+
+
+#choiches{
+
+padding-top:50px;
+padding-bottom:50px;
+
+
+
+
+}
+
+#choiches h1{
+text-align: center;
+//margin:0;
+padding-top:20px;
+text-decoration: underline;
+}
+
+
+
+#iphoneChoiche {
+  //margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom:40px; 
+}
+
+#iphoneChoiche img{
+
+width:150px;
+height:80px;
+
+
+}
+
+/*css flexbox*/
+
+ #iphonex, #iphone8, #iphone7,#iphone6s {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 4);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    }
+
+#iphoneChoiche .iphone p{
+color:blue;
+padding:10px; 
+
+}
+
+
+#iphoneChoiche .btn{
+
+width:70px;
+height:30px;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+
+/*footer*/
+
+footer{
+padding:10px;
+background:#323232;
+text-align: center;
+}
+
+footer p{
+font-size: 20px;
+color:white;
+text-decoration: underline;
+padding-bottom:10px;
+}
+
+footer a{
+padding: 10px;
+color:green;
+font-size: 18px;
+text-decoration: none;
+display: inline-block;
+
+}
+
+footer .designed{
+font-size: 17px;
+border-top:1px solid green;
+padding-top:15px;
+color:orange;
+}
+
+
+
+
+
+
+
+/*#14   media query*/
+
+@media screen and (max-width: 700px) {
+ 
+
+
+
+
+header #logo, header ul{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
+header #logo{
+
+margin:0;
+padding-top:5px;
+padding-left: 10px;
+font-size: 30px;
+
+}
+
+#header-img{
+
+width:90px;
+height:45px;
+
+}
+
+header #nav-bar{
+padding-top:5px;
+
+padding-bottom:5px;
+//margin-top:20px;
+list-style: none;
+background: grey;
+//display: flex;
+
+width:100%;
+}
+
+
+
+
+
+
+
+
+.box{
+opacity:0.8;
+background:#323232;
+width:70%;
+margin:0 auto;
+padding:30px; 
+color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.offer{
+padding-bottom: 20px;
+width:98%;
+display:flex;
+justify-content: space-between;
+margin:0 auto;
+flex-direction: column;
+}
+
+.services{
+margin:5px auto; 
+width:90%;
+//border:1px solid green;
+text-align: center;
+padding: 10px;
+background:dodgerblue;
+
+}
+
+#iphoneChoiche {
+  //margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  //justify-content: center;
+  padding-bottom:40px; 
+  width: 100%;
+align-items: center;
+}
+
+
+
+#iphoneChoiche img{
+
+width:180px;
+height:90px;
+
+
+}
+
+
+#iphonex, #iphone8, #iphone7,#iphone6s {
+    display: flex;
+  background:#ccc;
+    align-items: center;
+    //text-align: center;
+    width: 65%;
+    //flex-wrap: wrap; 
+      
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    }
+ 
+
+
+
+
+
+}
